@@ -5,6 +5,7 @@ README for Piano Tap　||　日本語の説明は下にあります
 Piano Tap is my first mobile app, created as a learning project during my college studies. The goal was to develop a simple yet functional piano app using the Kivy framework.
 
 **日本語**
+
 Piano Tapは私の最初のモバイルアプリで、専門学校在学中の学習プロジェクトとして制作しました。目標は、Kivyフレームワークを使って、シンプルかつ機能的なピアノアプリを開発することでした。
 
 Features:
@@ -52,6 +53,7 @@ For any questions or feedback, please contact me.  
 Enjoy playing Piano Tap!
 
 **日本語**
+
 Piano Tap は、ボタンをタップすることでピアノの音を奏でることができるシンプルなピアノアプリです。
 
 特徴:
