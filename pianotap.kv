@@ -1,0 +1,48 @@
+BoxLayout:
+	orientation: 'vertical'
+
+    Label:
+        text: "Piano Tap"
+        font_size: 20
+        bold: True
+
+    GridLayout:
+        cols: 8
+	
+		Button:
+			text: 'C'
+			size_hint: 1, 1
+			on_press: app.play_sound('C')
+		Button:
+			text: 'D'
+			size_hint: 1, 1
+			on_press: app.play_sound('D')
+		Button:
+			text: 'E'
+			size_hint: 1, 1
+			on_press: app.play_sound('E')
+		Button:
+			text: 'F'
+			size_hint: 1, 1
+			on_press: app.play_sound('F')
+		Button:
+			text: 'G'
+			size_hint: 1, 1
+			on_press: app.play_sound('G')
+		Button:
+			text: 'A'
+			size_hint: 1, 1
+			on_press: app.play_sound('A')
+		Button:
+			text: 'B'
+			size_hint: 1, 1
+			on_press: app.play_sound('B')
+		Button:
+			text: 'C2'
+			size_hint: 1, 1
+			on_press: app.play_sound('C2')
+	Button:
+        text: 'Close'
+        size_hint: 1, 0.2  
+        on_press: app.stop()
+		
